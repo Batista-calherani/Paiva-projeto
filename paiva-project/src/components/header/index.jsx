@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Header(){
     return(
         <>
-        <header className="bg-danger h-100" >
+        <header className="h-100 mb-1" >
             <nav className="navbar bg-1 fg-2">
                 <div className="container-fluid justify-content-evenly ">
                     <Link className="navbar-brand" href="/">

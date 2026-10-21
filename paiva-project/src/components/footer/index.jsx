@@ -2,12 +2,22 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <>
-            <footer className="sticky-bottom w-100 ">
-                <div className="accordion">
-                    <details className="accordion-item" name="accordionExample" open="">
-                        <summary className="accordion-header">
+            <footer className=" w-100 mt-4 ">
+                <div className="accordion rounded-0 ">
+                    <details className="accordion-item rounded-0 " name="accordionExample" open="">
+                        <summary className="accordion-header ">
                             Accordion Item #1
-
+                            <svg
+                                className="accordion-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            >
+                                <path d="m2 5 6 6 6-6" />
+                            </svg>
                         </summary>
                         <div className="accordion-body">
                             <strong>This is the first item’s accordion body.</strong> It is shown by
@@ -20,6 +30,17 @@ export default function Footer() {
                     <details className="accordion-item" name="accordionExample">
                         <summary className="accordion-header">
                             Accordion Item #2
+                            <svg
+                                className="accordion-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            >
+                                <path d="m2 5 6 6 6-6" />
+                            </svg>
                         </summary>
                         <div className="accordion-body">
                             <strong>This is the second item’s accordion body.</strong> The{" "}
@@ -28,9 +49,20 @@ export default function Footer() {
                             automatically.
                         </div>
                     </details>
-                    <details className="accordion-item" name="accordionExample">
+                    <details className="accordion-item rounded-0 " name="accordionExample">
                         <summary className="accordion-header">
                             Accordion Item #3
+                            <svg
+                                className="accordion-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            >
+                                <path d="m2 5 6 6 6-6" />
+                            </svg>
                         </summary>
                         <div className="accordion-body">
                             <strong>This is the third item’s accordion body.</strong> This exclusive
@@ -40,6 +72,7 @@ export default function Footer() {
                         </div>
                     </details>
                 </div>
+
 
             </footer>
         </>

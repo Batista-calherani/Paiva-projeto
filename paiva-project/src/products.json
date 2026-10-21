@@ -1,0 +1,67 @@
+[
+    {
+        "id":1,
+        "nome":"Sapato Nike",
+        "preco":10.99,
+        "categoria":"Roupa",
+        "descri":"Tênis com tecnologia de amortecimento Air Max e cabedal respirável, garantindo conforto, excelente tração e estilo para treinos ou uso casual.",
+        "image":"shoe.webp"
+    },
+    {
+        "id":2,
+        "nome":"Makita",
+        "preco":100.99,
+        "categoria":"Ferramenta",
+        "descri":"Ferramenta robusta e potente com empunhadura ergonômica e ajustes precisos de corte, perfeita para alta performance em marcenaria e construção.",
+        "image":"makita.webp"
+    },
+    {
+        "id":3,
+        "nome":"Notebook Samsung",
+        "preco":1500.99,
+        "categoria":"Eletrônico",
+        "descri":"Design ultrafino e leve com processador de alta performance, tela Full HD e bateria duradoura, ideal para produtividade e multitarefas em qualquer lugar.",
+        "image":"notebook.webp"
+    },
+    {
+        "id":4,
+        "nome":"Piscina inflável",
+        "preco":140.99,
+        "categoria":"Derivados",
+        "descri":"Piscina em PVC de alta resistência, prática de montar e guardar, ideal para refrescar e divertir toda a família no quintal com total segurança.   ",
+        "image":"piscina.webp"
+    },
+    {
+        "id":5,
+        "nome":"Quebra-cabeça 1000 peças",
+        "preco":140.99,
+        "categoria":"Brinquedos e Jogos",
+        "descri":"Piscina em PVC de alta resistência, prática de montar e guardar, ideal para refrescar e divertir toda a família no quintal com total segurança.   ",
+        "image":"quebra-cabeca.webp"
+    },
+    {
+        "id":6,
+        "nome":"Bebida alcoólica",
+        "preco":140.99,
+        "categoria":"Alimentos e Bebidas",
+        "descri":"Piscina em PVC de alta resistência, prática de montar e guardar, ideal para refrescar e divertir toda a família no quintal com total segurança.   ",
+        "image":"drink.webp"
+    },
+    {
+        "id":7,
+        "nome":"Controle para PS5",
+        "preco":540.99,
+        "categoria":"Eletrônico",
+        "descri":"Piscina em PVC de alta resistência, prática de montar e guardar, ideal para refrescar e divertir toda a família no quintal com total segurança.   ",
+        "image":"controle_ps5.webp"
+    },
+    {
+        "id":8,
+        "nome":"Piscina inflável",
+        "preco":140.99,
+        "categoria":"Derivados",
+        "descri":"Piscina em PVC de alta resistência, prática de montar e guardar, ideal para refrescar e divertir toda a família no quintal com total segurança.   ",
+        "image":"piscina.webp"
+    }
+    
+]
