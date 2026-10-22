@@ -16,22 +16,15 @@ export default function Produto() {
 
     return (
         <>
-            <main className="col-12">
+            <Link href={'/'}>Voltar</Link>
+            <div className="sm:conteiner h-fit ">
+                
                 {produto && <>
-
-                    <h1 className="fg-black" >{produto.nome}</h1>
-                    <figure className="figure align-items-center">
-                        <img src={produto.image} className=" img-thumbnail w-25 rounded-3" alt="..." />
-                        <figcaption className="figure-caption">
-                            {produto.nome}
-                        </figcaption>
-                    </figure>
-
-                    <p className="fg-black" >{produto.descri}</p>
-                    <h3 className="fg-black" >{produto.categoria}</h3>
+                    <p>102938120938</p>
+                    <img src={produto.image} alt="" className=" rounded float-start" />
                 </>}
-                <Link href={'/'}>Voltar</Link>
-            </main>
+                
+            </div>
         </>
     )
 }

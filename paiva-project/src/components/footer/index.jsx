@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <>
-            <footer className=" w-100 mt-4 ">
+            <footer className=" z-0 position-sticky mt-4 ">
                 <div className="accordion rounded-0 ">
                     <details className="accordion-item rounded-0 " name="accordionExample" open="">
                         <summary className="accordion-header ">

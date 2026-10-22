@@ -3,6 +3,10 @@ import { useEffect, useState } from "react";
 import products from '@/products.json';
 import Link from "next/link";
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 export default function Home() {
   const [produtos, setProdutos] = useState([]);
   const [showPopup, setShowPopup] = useState(false);
@@ -66,7 +70,7 @@ export default function Home() {
                     Click me
                   </button>
                   <small className="text-muted d-block mt-2">
-                    Last updated 3 mins ago
+                    Last updated {getRandomInt(61)} mins ago
                   </small>
                 </div>
               </div>

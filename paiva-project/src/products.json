@@ -57,11 +57,11 @@
     },
     {
         "id":8,
-        "nome":"Piscina inflável",
-        "preco":140.99,
-        "categoria":"Derivados",
+        "nome":"Bicicleta ergométrica",
+        "preco":230.99,
+        "categoria":"Maquinas",
         "descri":"Piscina em PVC de alta resistência, prática de montar e guardar, ideal para refrescar e divertir toda a família no quintal com total segurança.   ",
-        "image":"piscina.webp"
+        "image":"bike_treino.webp"
     }
     
 ]
